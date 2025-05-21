@@ -2642,7 +2642,6 @@ url("img/referentia-logo-blue.webp") 2x);
 	}
 	.card-margin-btn{
 		margin:24px 12px 24px 12px;
-		background-color:var(--swatch-var-4292);
 		border-radius:4px 4px 4px 4px;
 	}
 	.card-margin{
@@ -2748,6 +2747,13 @@ url("img/referentia-logo-blue.webp") 2x);
 	}
 	.about-hero{
 		height:360px;
+	}
+	.btn-coming{
+		width:100%;
+	}
+	.square5{
+		top:32%;
+		right:44%;
 	}
 	
 }
