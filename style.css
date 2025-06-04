@@ -3,8 +3,8 @@
 	About: Adaptive cybersecurity solutions for a rapidly evolving digital landscape. Referentia provides specialized security services through distinct business units.
 	Author: Richard Garcia
 	Version: 1.0
-	Built with Blocs
 -----------------------------------------------------------------------------------*/
+
 body{
 	margin:0;
 	padding:0;
@@ -1613,6 +1613,44 @@ url("img/cta-bg.webp") 2x);
 
 /* = Additional CSS
 -------------------------------------------------------------- */
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container {
+    margin-right: 20px; /* Adjust as needed for larger screens */
+}
+
+.phone-container {
+    margin-left: 20px; /* Must be the same value as margin-right on button-container */
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .d-flex {
+        flex-direction: column; /* Stack the items vertically */
+        align-items: stretch;   /* Stretch items horizontally */
+    }
+
+    .button-container {
+        margin-right: 0;     /* Remove right margin */
+        margin-bottom: 10px;    /* Add a little spacing below the button */
+        width: 100%;          /* Make button container full width */
+    }
+
+    .phone-container {
+        margin-left: 0;      /* Remove left margin */
+        text-align: center;   /* Center phone number text */
+    }
+
+    /* Style the button itself to be full width and centered */
+    .button-container .btn {
+        width: 100%;          /* Make the button full width */
+        justify-content: center;  /* Center the text and icon */
+    }
+}
 
 /* For primary buttons */
 
